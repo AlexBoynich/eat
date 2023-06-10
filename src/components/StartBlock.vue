@@ -44,6 +44,7 @@
         flex-direction: column    
         align-items: center
         margin: 50px 70px
+        overflow: hidden
         @media (max-width: 360px )
             margin: 0
         .becomings
@@ -70,8 +71,8 @@
     .buttonsBlock
         display: flex
         flex-direction: row
-        width: 1108px
         justify-content: space-between
+        max-width: 100%
         @media (max-width: 360px )
             flex-direction: column
     .city

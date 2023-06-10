@@ -38,7 +38,7 @@
         display: flex
         flex-direction: column
         align-items: center
-        margin: 12px 9px
+        padding: 12px 9px
         .title
             font-size: 80px
             margin: 40px
@@ -64,7 +64,7 @@
         height: 207px
         border: 1px solid #d9d9d9
         border-radius: 40px
-        margin: 30px
+        margin: 20px
         @media (max-width: 360px )
             width: 270px
             height: 100px
@@ -75,6 +75,7 @@
         display: flex
         max-width: 1920px
         flex-wrap: wrap
+        justify-content: center
         img
             width: 150px
             height: 150px
