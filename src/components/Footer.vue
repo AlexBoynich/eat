@@ -5,12 +5,11 @@
         v-for="tableItem in tableList"
 
       >
-        <h4>{{ tableItem.post }}</h4>
+        <h3>{{ tableItem.post }}</h3>
         <p>{{ tableItem.director }}</p>
         <p style="text-decoration: underline">{{ tableItem.phoneNumber }}</p>
       </div>
       </div>
-      <img src="/vkLogo.png" alt="Группа Вконтакте" class="vkLogo">
       <h4 class="adress">Адрес:</h4>
     </div>
   </template>
@@ -34,7 +33,7 @@
 <style lang="sass" scoped>
 .footer
   display: flex
-  background: #d9d9d9
+  // background: $primary-color
   flex-direction: row
   flex-wrap: wrap
   .footerTables

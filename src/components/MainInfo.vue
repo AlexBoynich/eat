@@ -10,7 +10,7 @@
             <div class="item"
             v-for="item in programList">
                 <img :src='item.link'  alt="" class="itemImg">
-                <h6 class="itemText">{{ item.text }}</h6>
+                <p class="itemText">{{ item.text }}</p>
             </div>
         </div>  
     </div>

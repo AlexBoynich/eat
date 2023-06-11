@@ -1,16 +1,17 @@
 <template>
     <div class="startBlock container">
-        <h2 class="city">Томск</h2>
+        <img src="/vkLogo.png" alt="Группа ВКонтакте" class="vkLogo">
+        <h3 class="city">Томск</h3>
         <img src="/purePhoto.png" alt="Логотип фестиваля ЕСТЬ!" class="logo">
-        <h2 class="title">Фестиваль городских ресторанов</h2>
+        <p class="title">Фестиваль городских ресторанов</p>
         <div class="buttonsBlock">
             <div class="participantBlock">
-                <button class="becomings">Стать Участником</button>
-                <button class="conditions">Условия участия</button>
+                <button class="becomings"><a>Стать Участником</a></button>
+                <button class="conditions"><a>Условия участия</a></button>
             </div>
             <div class="sponsorBlock">
-                <button class="becomings">Стать спонсором</button>
-                <button class="conditions">Условия спонсорства</button>
+                <button class="becomings"><a>Стать спонсором</a></button>
+                <button class="conditions"><a href="">Условия спонсорства</a></button>
             </div>
         </div>
         <hr>
@@ -77,4 +78,7 @@
             flex-direction: column
     .city
         margin: 24px 0 16px
+    .vkLogo
+        display: flex
+        justify-content: flex-end
 </style>

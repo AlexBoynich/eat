@@ -27,8 +27,8 @@
     align-items: center
     background: center / 86px 55px no-repeat url("/public/headerLogo.png")  #D9D9D9           
     .vkLogo
-      width: 44px
-      height: 44px
+      width: 228px
+      height: 40px
       margin-right: 15px
       @media (max-width: 360px )
         width: 34px
