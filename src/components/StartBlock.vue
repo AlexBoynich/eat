@@ -1,19 +1,31 @@
 <template>
-    <div class="startBlock container">
-        <img src="/vkLogo.png" alt="Группа ВКонтакте" class="vkLogo">
-        <h3 class="city">Томск</h3>
-        <img src="/purePhoto.png" alt="Логотип фестиваля ЕСТЬ!" class="logo">
-        <p class="title">Фестиваль городских ресторанов</p>
-        <div class="buttonsBlock">
-            <div class="participantBlock">
-                <button class="becomings"><a>Стать Участником</a></button>
-                <button class="conditions"><a>Условия участия</a></button>
+    <div class="block">
+        <div class="vkBlock"><img src="/vkLogo.png" alt="Группа ВКонтакте" class="vkLogo"></div>
+        <img src="/handWithBurger.png" alt="" class="handWithBurger">
+        <img src="/handWithSusi.png" alt="" class="handWithSusi">
+        <img src="/handWithCoffee.png" class="handWithCoffee" alt="">
+        <img src="/handWithDrink.png" class="handWithDrink" alt="">
+        <div class="startBlock container">
+            <div class="cityAndDate">
+                <h3 class="city">Томск</h3>
+                <h3 class="date"> 2-3 cентября</h3>
             </div>
-            <div class="sponsorBlock">
-                <button class="becomings"><a>Стать спонсором</a></button>
-                <button class="conditions"><a href="">Условия спонсорства</a></button>
+            <img src="/logo.png" alt="Логотип фестиваля ЕСТЬ!" class="logo">
+
+            <p class="title">Фестиваль городских ресторанов</p>
+            <div class="buttonsBlock">
+                <div class="participantBlock">
+                    <button class="becomings"><a>Стать участником</a></button>
+                    <button class="conditions"><a >Условия  <img src="/angle.png" alt="" class="angle"></a></button>
+                </div>
+                <div class="sponsorBlock">
+                    <button class="becomings"><a>Стать спонсором</a></button>
+                    <button class="conditions"><a>Условия  <img src="/angle.png" alt="" class="angle"></a></button>
+                </div>
             </div>
         </div>
+        <img src="/handWithHotDog.png" alt="" class="handWithHotDog">
+        <img src="/handWithDonut.png" alt="" class="handWithDonut">
         <hr>
     </div>
 </template>
@@ -23,6 +35,13 @@
 </script>
 
 <style lang="sass" scoped>
+    .angle
+        @media (max-width: 360px )
+            width: 6px
+            height: 11px
+            margin-left: 10px
+    .block
+        position: relative
     .startBlock
         display: flex
         flex-direction: column
@@ -30,16 +49,34 @@
         .title
             margin: 24px 0 12px
     .logo
-        width: 58%
-        height: width/2
+        width: 32%
+        object-fit: cover
         @media (max-width: 360px )
-            width: 300px
-            height: 200px
+            width: 221px
+            height: 140px
             object-fit: cover
     hr
         width: 100%
         border: 1px solid #949494
-        margin: 12px 0
+        margin: 0 0 12px
+        position: relative
+    .participantBlock
+        .becomings
+            background: #FF7A00
+            &:hover
+                filter: brightness(90%)
+            &:active
+                filter: brightness(80%)
+            a
+                color: #FFFFFF
+                
+    .sponsorBlock
+        .becomings
+            &:hover
+                background: #FF7A001A
+            &:active
+                background: #FF7A0080
+                
     .participantBlock, .sponsorBlock
         display: flex
         flex-direction: column    
@@ -49,22 +86,24 @@
         @media (max-width: 360px )
             margin: 0
         .becomings
-            width: 448px
-            height: 144px
-            background: #d9d9d9
-            border: transparent
+            width: 274px
+            height: 88px
+            border: 2px solid #FF7A00
             border-radius: 69px
             @media (max-width: 360px )
                 width: 193px
                 height: 62px
                 margin: 12px 0
         .conditions
-            width: 358px
-            height: 89px
+            width: 193px
+            height: 56px
             background: #fff
-            border: 1px solid #000000
-            border-radius: 69px 
-            margin: 92px 0  
+            border-radius: 24px 
+            margin: 40px 0  
+            &:hover
+                background: #FF7A001A
+            &:active
+                background: #FF7A0080
             @media (max-width: 360px )
                 width: 146px
                 height: 36px
@@ -76,9 +115,99 @@
         max-width: 100%
         @media (max-width: 360px )
             flex-direction: column
-    .city
-        margin: 24px 0 16px
-    .vkLogo
+    .cityAndDate
         display: flex
-        justify-content: flex-end
+        justify-content: space-between
+        width: 32%
+        margin-bottom: 27px
+        color: #D02D22
+        @media (max-width: 360px )
+            flex-direction: column
+            width: auto
+            align-items: center
+    .vkBlock
+        display: flex
+        width: 261px
+        height: 72px
+        border-radius: 48px
+        float: right
+        justify-content: center
+        margin: 20px 87px 0 0
+        align-items: center
+        &:hover
+            background: #FF7A001A
+            cursor: pointer
+        &:active
+            background: #FF7A0080
+            
+        @media (max-width: 360px )
+            display: none
+
+    .vkLogo
+        width: 228px
+        height: 40px
+
+    .handWithBurger
+        width: 24%
+        position: absolute
+        top: 0
+        @media (max-width: 360px )
+            left: -80px
+            width: 180px
+            object-fit: cover
+    .handWithSusi
+        position: absolute
+        right: 0
+        top: 140px
+        width: 18%
+        @media (max-width: 360px )
+            width: 101px
+            height: 87px
+            top: 0
+            right: -10px
+            object-fit: cover
+    .handWithCoffee
+        position: absolute
+        left: 0
+        top: 300px
+        width: 16%
+        @media (max-width: 360px )
+            width: 105px
+            height: 99px
+            left: -40px
+            object-fit: cover
+    .handWithDrink
+        position: absolute
+        right: 0
+        top: 370px
+        width: 15%
+        @media (max-width: 360px )
+            width: 90px
+            height: 129px
+            top: 300px
+            right: -30px
+            object-fit: cover
+    .handWithHotDog
+        position: absolute
+        right: 100px
+        bottom: 0
+        width: 19%
+        @media (max-width: 360px )
+            width: 84px
+            height: 88px
+            right: -30px
+            object-fit: cover
+        
+    .handWithDonut
+        position: absolute
+        bottom: 0
+        width: 19%
+        @media (max-width: 360px )
+            width: 85px
+            height: 88px
+            left: -25px
+            object-fit: cover
+
+
+
 </style>
