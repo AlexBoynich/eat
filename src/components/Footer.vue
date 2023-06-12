@@ -44,7 +44,8 @@
 
 <style lang="sass" scoped>
 .container
-  max-width: 360px
+  @media  (max-width: 875px)
+    zzzmax-width: 360px
 .footerColor
   background: #FFC500
 .footer

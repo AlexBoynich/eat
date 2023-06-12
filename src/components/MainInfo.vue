@@ -40,7 +40,7 @@
         display: flex
         flex-direction: column
         align-items: center
-        padding: 12px 9px
+        padding: 12px 9px 72px 9px
         .title
             margin: 40px
             color: #FF7A00
@@ -52,6 +52,7 @@
         @media (max-width: 875px )
             width: 100%
         p
+            max-width: 1550px
             @media (max-width: 875px )
         .wordEat
             color: #FF7A00
@@ -64,7 +65,6 @@
         height: 207px
         border: 1px solid #d9d9d9
         border-radius: 40px
-        margin: 10px
         padding: 35px
         .itemText
             text-align: center
@@ -80,6 +80,7 @@
         max-width: 1920px
         flex-wrap: wrap
         justify-content: center
+        gap: 42px 22px
         img
             width: 150px
             height: 150px
