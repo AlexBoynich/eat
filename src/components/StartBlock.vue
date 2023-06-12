@@ -216,6 +216,8 @@ export default {
         right: 100px
         bottom: 12px
         width: 19%
+        @media (max-width: 1200px )
+            right: 0
         @media (max-width: 875px )
             width: 84px
             height: 88px
