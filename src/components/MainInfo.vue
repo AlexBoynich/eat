@@ -48,7 +48,6 @@
                 margin: 48px 12px 12px 12px
     .mainText
         display: flex
-        width: 1556px
         text-align: center
         @media (max-width: 875px )
             width: 100%

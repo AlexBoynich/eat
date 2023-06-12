@@ -43,6 +43,8 @@
 </script>
 
 <style lang="sass" scoped>
+.container
+  max-width: 360px
 .footerColor
   background: #FFC500
 .footer
@@ -79,7 +81,7 @@
 .adress
   display: flex
   flex-direction: column
-  margin: 30px 50px 30px 70px
+  margin: 20px
   @media  (max-width: 875px)
     margin: 16px 20
 .vkLogoMobile
@@ -90,7 +92,7 @@
     display: flex
     width: 33px
     height: 33px
-    margin: 16px 0 16px 70%
+    margin: 16px 0 16px 30%
 
 </style>
   
