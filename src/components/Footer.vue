@@ -55,7 +55,7 @@
     width: 60%
     max-width: 1920px
     justify-content: start
-    @media  (max-width: 375px)
+    @media  (max-width: 875px)
       width: 100%
       justify-content: space-between
     .footerTable
@@ -63,7 +63,7 @@
       margin: 30px
       p
         font-size: 24px
-      @media  (max-width: 375px)
+      @media  (max-width: 875px)
         width: 128px
         margin: 0 
         .post
@@ -77,13 +77,13 @@
   display: flex
   flex-direction: column
   margin: 30px 50px 30px 70px
-  @media  (max-width: 375px)
+  @media  (max-width: 875px)
     margin: 16px 0
 .vkLogoMobile
   display: none
   &:hover
     cursor: pointer
-  @media  (max-width: 375px)
+  @media  (max-width: 875px)
     display: flex
     width: 33px
     height: 33px

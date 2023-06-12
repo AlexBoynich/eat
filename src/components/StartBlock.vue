@@ -52,7 +52,7 @@ export default {
 
 <style lang="sass" scoped>
     .angle
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             width: 6px
             height: 11px
             margin-left: 10px
@@ -68,7 +68,7 @@ export default {
         width: 32%
         object-fit: cover
         min-width: 320px
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             width: 221px
             height: 140px
             object-fit: cover
@@ -101,14 +101,14 @@ export default {
         align-items: center
         margin: 50px 70px
         overflow: hidden
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             margin: 0
         .becomings
             width: 274px
             height: 88px
             border: 2px solid #FF7A00
             border-radius: 69px
-            @media (max-width: 375px )
+            @media (max-width: 875px )
                 width: 193px
                 height: 62px
                 margin: 12px 0
@@ -122,7 +122,7 @@ export default {
                 background: #FF7A001A
             &:active
                 background: #FF7A0080
-            @media (max-width: 375px )
+            @media (max-width: 875px )
                 width: 146px
                 height: 36px
                 margin: 0 0 12px
@@ -131,7 +131,7 @@ export default {
         flex-direction: row
         justify-content: space-between
         max-width: 100%
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             flex-direction: column
     .cityAndDate
         display: flex
@@ -142,7 +142,7 @@ export default {
         min-width: 320px
         .city
             margin-right: 20px
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             flex-direction: column
             min-width: auto
             width: auto
@@ -162,7 +162,7 @@ export default {
         &:active
             background: #FF7A0080
             
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             display: none
 
     .vkLogo
@@ -173,7 +173,7 @@ export default {
         width: 24%
         position: absolute
         top: 0
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             left: -80px
             width: 180px
             object-fit: cover
@@ -182,7 +182,7 @@ export default {
         right: 0
         top: 140px
         width: 18%
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             width: 101px
             height: 87px
             top: 0
@@ -193,7 +193,7 @@ export default {
         left: 0
         top: 300px
         width: 16%
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             width: 105px
             height: 99px
             left: -40px
@@ -203,7 +203,7 @@ export default {
         right: 0
         top: 370px
         width: 15%
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             width: 90px
             height: 129px
             top: 300px
@@ -214,7 +214,7 @@ export default {
         right: 100px
         bottom: 0
         width: 19%
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             width: 84px
             height: 88px
             right: -30px
@@ -224,7 +224,7 @@ export default {
         position: absolute
         bottom: 0
         width: 19%
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             width: 85px
             height: 88px
             left: -25px

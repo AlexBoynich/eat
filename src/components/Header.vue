@@ -30,7 +30,7 @@
       width: 228px
       height: 40px
       margin-right: 15px
-      @media (max-width: 375px )
+      @media (max-width: 875px )
         width: 34px
         height: 35px
     .date
@@ -46,10 +46,10 @@
         letter-spacing: 0em
         text-align: left
         margin: 26px 25px 27px
-        @media (max-width: 375px )
+        @media (max-width: 875px )
           margin: 16px 15px
 
-  @media (max-width: 375px )
+  @media (max-width: 875px )
     .header
       max-width: 360px
       width: 100%

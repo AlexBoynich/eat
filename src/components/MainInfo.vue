@@ -44,16 +44,16 @@
         .title
             margin: 40px
             color: #FF7A00
-            @media (max-width: 375px )
+            @media (max-width: 875px )
                 margin: 48px 12px 12px 12px
     .mainText
         display: flex
         width: 1556px
         text-align: center
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             width: 100%
         p
-            @media (max-width: 375px )
+            @media (max-width: 875px )
         .wordEat
             color: #FF7A00
     .item
@@ -69,7 +69,7 @@
         padding: 35px
         .itemText
             text-align: center
-        @media (max-width: 375px )
+        @media (max-width: 875px )
             width: 320px
             height: 100px
             border-radius: 40px
@@ -84,7 +84,7 @@
         img
             width: 150px
             height: 150px
-            @media (max-width: 375px )
+            @media (max-width: 875px )
                 width: 70px
                 height: 70px
                 object-fit: cover
