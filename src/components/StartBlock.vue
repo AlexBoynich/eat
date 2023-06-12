@@ -1,5 +1,5 @@
 <template>
-    <div class="block">
+    <div class="block containerzz">
         <div class="vkBlock"
         @click="replace('https://vk.com/festival_est')"
         >

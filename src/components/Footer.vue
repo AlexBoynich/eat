@@ -49,6 +49,7 @@
   display: flex
   flex-direction: row
   flex-wrap: wrap
+  // width: 100%
   .footerTables
     display: flex
     flex-direction: row
@@ -61,11 +62,13 @@
     .footerTable
       width: 23%
       margin: 30px
+      min-width: 258px
       p
         font-size: 24px
       @media  (max-width: 875px)
         width: 128px
-        margin: 0 
+        min-width: 128px
+        margin: 20px 
         .post
           height: 44px
         .director
@@ -78,7 +81,7 @@
   flex-direction: column
   margin: 30px 50px 30px 70px
   @media  (max-width: 875px)
-    margin: 16px 0
+    margin: 16px 20
 .vkLogoMobile
   display: none
   &:hover
