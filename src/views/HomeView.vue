@@ -6,7 +6,6 @@
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
   import MainInfo from '@/components/MainInfo.vue';
   import StartBlock from '@/components/StartBlock.vue';
 

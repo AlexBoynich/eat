@@ -1,6 +1,10 @@
 <template>
     <div class="block">
-        <div class="vkBlock"><img src="/vkLogo.png" alt="Группа ВКонтакте" class="vkLogo"></div>
+        <div class="vkBlock"
+        @click="replace('https://vk.com/festival_est')"
+        >
+            <img src="/vkLogo.png" alt="Группа ВКонтакте" class="vkLogo">
+        </div>
         <img src="/handWithBurger.png" alt="" class="handWithBurger">
         <img src="/handWithSusi.png" alt="" class="handWithSusi">
         <img src="/handWithCoffee.png" class="handWithCoffee" alt="">
@@ -31,12 +35,24 @@
 </template>
 
 <script>
+export default {
+    data: () => {
+        return {
+
+        }
+    },
+    methods: {
+        replace(link){
+            window.location.href= `${link}`
+        }
+    }
+}
 
 </script>
 
 <style lang="sass" scoped>
     .angle
-        @media (max-width: 360px )
+        @media (max-width: 375px )
             width: 6px
             height: 11px
             margin-left: 10px
@@ -51,10 +67,12 @@
     .logo
         width: 32%
         object-fit: cover
-        @media (max-width: 360px )
+        min-width: 320px
+        @media (max-width: 375px )
             width: 221px
             height: 140px
             object-fit: cover
+            min-width: auto
     hr
         width: 100%
         border: 1px solid #949494
@@ -83,14 +101,14 @@
         align-items: center
         margin: 50px 70px
         overflow: hidden
-        @media (max-width: 360px )
+        @media (max-width: 375px )
             margin: 0
         .becomings
             width: 274px
             height: 88px
             border: 2px solid #FF7A00
             border-radius: 69px
-            @media (max-width: 360px )
+            @media (max-width: 375px )
                 width: 193px
                 height: 62px
                 margin: 12px 0
@@ -104,7 +122,7 @@
                 background: #FF7A001A
             &:active
                 background: #FF7A0080
-            @media (max-width: 360px )
+            @media (max-width: 375px )
                 width: 146px
                 height: 36px
                 margin: 0 0 12px
@@ -113,7 +131,7 @@
         flex-direction: row
         justify-content: space-between
         max-width: 100%
-        @media (max-width: 360px )
+        @media (max-width: 375px )
             flex-direction: column
     .cityAndDate
         display: flex
@@ -121,8 +139,12 @@
         width: 32%
         margin-bottom: 27px
         color: #D02D22
-        @media (max-width: 360px )
+        min-width: 320px
+        .city
+            margin-right: 20px
+        @media (max-width: 375px )
             flex-direction: column
+            min-width: auto
             width: auto
             align-items: center
     .vkBlock
@@ -140,7 +162,7 @@
         &:active
             background: #FF7A0080
             
-        @media (max-width: 360px )
+        @media (max-width: 375px )
             display: none
 
     .vkLogo
@@ -151,7 +173,7 @@
         width: 24%
         position: absolute
         top: 0
-        @media (max-width: 360px )
+        @media (max-width: 375px )
             left: -80px
             width: 180px
             object-fit: cover
@@ -160,7 +182,7 @@
         right: 0
         top: 140px
         width: 18%
-        @media (max-width: 360px )
+        @media (max-width: 375px )
             width: 101px
             height: 87px
             top: 0
@@ -171,7 +193,7 @@
         left: 0
         top: 300px
         width: 16%
-        @media (max-width: 360px )
+        @media (max-width: 375px )
             width: 105px
             height: 99px
             left: -40px
@@ -181,7 +203,7 @@
         right: 0
         top: 370px
         width: 15%
-        @media (max-width: 360px )
+        @media (max-width: 375px )
             width: 90px
             height: 129px
             top: 300px
@@ -192,7 +214,7 @@
         right: 100px
         bottom: 0
         width: 19%
-        @media (max-width: 360px )
+        @media (max-width: 375px )
             width: 84px
             height: 88px
             right: -30px
@@ -202,12 +224,9 @@
         position: absolute
         bottom: 0
         width: 19%
-        @media (max-width: 360px )
+        @media (max-width: 375px )
             width: 85px
             height: 88px
             left: -25px
             object-fit: cover
-
-
-
 </style>

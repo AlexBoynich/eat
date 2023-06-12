@@ -14,7 +14,9 @@
           <h4>Адрес:</h4>
           <a >cекрет :)</a>
         </div>
-        <img src="/vkLogoMobile.png" alt="" class="vkLogoMobile">
+        <img src="/vkLogoMobile.png" alt="" class="vkLogoMobile"
+        @click="replace('https://vk.com/festival_est')"
+        >
       </div>
     </div>
   </template>
@@ -31,7 +33,12 @@
           // {post: 'Маркет', director: 'Креер Динара', phoneNumber: '8 (923) 433 87-63',}
         ]
       }
-    }
+    },
+    methods: {
+        replace(link){
+            window.location.href= `${link}`
+        }
+     }
   }
 </script>
 
@@ -48,7 +55,7 @@
     width: 60%
     max-width: 1920px
     justify-content: start
-    @media  (max-width: 360px)
+    @media  (max-width: 375px)
       width: 100%
       justify-content: space-between
     .footerTable
@@ -56,7 +63,7 @@
       margin: 30px
       p
         font-size: 24px
-      @media  (max-width: 360px)
+      @media  (max-width: 375px)
         width: 128px
         margin: 0 
         .post
@@ -70,11 +77,13 @@
   display: flex
   flex-direction: column
   margin: 30px 50px 30px 70px
-  @media  (max-width: 360px)
+  @media  (max-width: 375px)
     margin: 16px 0
 .vkLogoMobile
   display: none
-  @media  (max-width: 360px)
+  &:hover
+    cursor: pointer
+  @media  (max-width: 375px)
     display: flex
     width: 33px
     height: 33px
