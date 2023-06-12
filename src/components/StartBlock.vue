@@ -214,7 +214,7 @@ export default {
     .handWithHotDog
         position: absolute
         right: 100px
-        bottom: 0
+        bottom: 12px
         width: 19%
         @media (max-width: 875px )
             width: 84px
@@ -224,7 +224,7 @@ export default {
         
     .handWithDonut
         position: absolute
-        bottom: 0
+        bottom: 12px
         width: 19%
         @media (max-width: 875px )
             width: 85px

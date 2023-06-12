@@ -7,12 +7,12 @@
       >
           <h4 class="post">{{ tableItem.post }}</h4>
           <p class="director">{{ tableItem.director }}</p>
-          <p class="number">{{ tableItem.phoneNumber }}</p>
+          <a class="number" :href="`tel:${tableItem.phoneNumber}`">{{ tableItem.phoneNumber }}</a>
         </div>
         </div>
         <div class="adress">
           <h4>Адрес:</h4>
-          <a >cекрет :)</a>
+          <a>cекрет :)</a>
         </div>
         <img src="/vkLogoMobile.png" alt="" class="vkLogoMobile"
         @click="replace('https://vk.com/festival_est')"
@@ -43,6 +43,7 @@
 </script>
 
 <style lang="sass" scoped>
+// @import url('@/stylesApp.sass')
 .container
   @media  (max-width: 875px)
     zzzmax-width: 360px
@@ -68,6 +69,9 @@
       min-width: 258px
       p
         font-size: 24px
+      .number
+        text-decoration: none
+        color: #1C1C1A
       @media  (max-width: 875px)
         width: 128px
         min-width: 128px
