@@ -46,7 +46,7 @@
 // @import url('@/stylesApp.sass')
 .container
   @media  (max-width: 875px)
-    zzzmax-width: 360px
+    max-width: 360px
 .footerColor
   background: #FFC500
 .footer
