@@ -1,7 +1,9 @@
 <template>
   <div class="home">
-    <StartBlock/>
-    <MainInfo/>
+    <main>
+      <StartBlock/>
+      <MainInfo/>
+    </main>
   </div>
 </template>
 

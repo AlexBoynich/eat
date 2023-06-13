@@ -1,6 +1,6 @@
 <template>
     <div class="footerColor">
-      <div class="footer container">
+      <footer class="footer container">
         <div class="footerTables">
         <div class="footerTable"
         v-for="tableItem in tableList"
@@ -17,7 +17,7 @@
         <img src="/vkLogoMobile.png" alt="" class="vkLogoMobile"
         @click="replace('https://vk.com/festival_est')"
         >
-      </div>
+      </footer>
     </div>
   </template>
   
