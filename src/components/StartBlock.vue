@@ -24,7 +24,7 @@
                     <button class="conditions"
                     @click="replace('https://drive.google.com/file/d/1IhhwiZJ9VrccXa0U53iYTkT64p99VEFg/view?usp=drive_link')"><a >Условия  <img src="/angle.png" alt="" class="angle"></a></button>
                 </div>
-                <div class="sponsorBlock">
+                <div class="rightBlock">
                     <button class="becomings" href="https://docs.google.com/forms/d/e/1FAIpQLSeGtG3cA4Q2glTf1ZFQRUnPd1MW5hoap0MWibR0fERXzUc1qg/viewform"
                     @click="replace('https://docs.google.com/forms/d/e/1FAIpQLSeGtG3cA4Q2glTf1ZFQRUnPd1MW5hoap0MWibR0fERXzUc1qg/viewform')"><a>Стать спонсором</a></button>
                     <button class="conditions"
@@ -92,14 +92,14 @@ export default {
             a
                 color: #FFFFFF
                 
-    .sponsorBlock
+    .rightBlock
         .becomings
             &:hover
                 background: #FF7A001A
             &:active
                 background: #FF7A0080
                 
-    .participantBlock, .sponsorBlock
+    .participantBlock, .rightBlock
         display: flex
         flex-direction: column    
         align-items: center
