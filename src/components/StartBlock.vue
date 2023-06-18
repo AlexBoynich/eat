@@ -144,8 +144,7 @@ export default {
         margin-bottom: 27px
         color: #D02D22
         min-width: 320px
-        .city
-            margin-right: 20px
+
         @media (max-width: 875px )
             flex-direction: column
             min-width: auto
