@@ -25,7 +25,7 @@
                 programList: [
                     {text: 'ЛЮБИМЫЕ ЗАВЕДЕНИЯ ТОМСКА', link: '/purePhoto.png', class: '0'},
                     {text: 'МАРКЕТ', link: '/purePhoto.png', class: '1'},
-                    {text: 'МАСТЕР-КЛАСЫ И ЛЕКТОРИЙ', link: '/purePhoto.png', class: '2'},
+                    {text: 'МАСТЕР-КЛАССЫ И ЛЕКТОРИЙ', link: '/purePhoto.png', class: '2'},
                     {text: 'БОЛЬШАЯ ДЕТСКАЯ ИГРОВАЯ', link: '/purePhoto.png', class: '2'},
                     {text: 'РАЗВЛЕКАТЕЛЬНАЯ ПРОГРАММА', link: '/purePhoto.png', class: '0'},
                     {text: 'И ЕЩЕ МНОГО ДРУГИХ СЮРПРИЗОВ', link: '/purePhoto.png', class: '1'},
@@ -40,12 +40,12 @@
         display: flex
         flex-direction: column
         align-items: center
-        padding: 12px 9px 72px 9px
+        padding: 0 9px 72px 9px
         .title
-            margin: 40px
+            margin: 80px auto 24px
             color: #FF7A00
             @media (max-width: 875px )
-                margin: 48px 12px 12px 12px
+                margin: 32px 12px 16px 12px
     .mainText
         display: flex
         text-align: center
@@ -68,11 +68,12 @@
         padding: 35px
         .itemText
             text-align: center
+            max-width: 340px
         @media (max-width: 875px )
             width: 320px
             height: 100px
             border-radius: 40px
-            margin: 5px
+            margin: 8px
             padding: 0 15px
 
     .program
@@ -81,6 +82,8 @@
         flex-wrap: wrap
         justify-content: center
         gap: 42px 22px
+        @media (max-width: 875px )
+            gap: 0
         img
             width: 150px
             height: 150px

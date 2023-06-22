@@ -47,6 +47,8 @@
 .container
   @media  (max-width: 875px)
     max-width: 360px
+    margin: 0 auto
+    padding: 16px
 .footerColor
   background: #FFC500
 .footer
@@ -60,22 +62,28 @@
     width: 60%
     max-width: 1920px
     justify-content: start
+    @media  (max-width: 1100px)
+      width: auto
     @media  (max-width: 875px)
       width: 100%
       justify-content: space-between
     .footerTable
       width: 23%
-      margin: 30px
+      margin: 64px 47px 64px 72px
       min-width: 258px
       p
         font-size: 24px
       .number
         text-decoration: none
         color: #1C1C1A
+      .director 
+        margin: 16px 0
+      .post 
+        max-width: 210px
       @media  (max-width: 875px)
         width: 128px
         min-width: 128px
-        margin: 20px 
+        margin: 0px 
         .post
           height: 44px
         .director
@@ -86,7 +94,16 @@
 .adress
   display: flex
   flex-direction: column
-  margin: 20px
+  @media  (max-width: 875px)
+    margin: 16px 0
+  h4
+    margin-top: 64px
+    @media  (max-width: 875px)
+      margin-top: 0
+  a
+    margin-top: 16px
+    @media  (max-width: 875px)
+    margin-top: 0
   @media  (max-width: 875px)
     margin: 16px 20
 .vkLogoMobile
@@ -97,7 +114,7 @@
     display: flex
     width: 33px
     height: 33px
-    margin: 16px 0 16px 30%
+    margin: 16px 0 16px 60%
 
 </style>
   

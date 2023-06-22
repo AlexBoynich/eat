@@ -79,7 +79,7 @@ export default {
             min-width: auto
     hr
         width: 100%
-        border: 1px solid #949494
+        border: 1px solid #FF7A00
         margin: 0 0 12px
         position: relative
     .participantBlock
