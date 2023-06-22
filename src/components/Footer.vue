@@ -12,7 +12,7 @@
         </div>
         <div class="adress">
           <h4>Адрес:</h4>
-          <a>cекрет :)</a>
+          <a>ТРК "Лето"</a>
         </div>
         <img src="/vkLogoMobile.png" alt="" class="vkLogoMobile"
         @click="replace('https://vk.com/festival_est')"
@@ -78,6 +78,7 @@
         color: #1C1C1A
       .director 
         margin: 16px 0
+        line-height: 24px
       .post 
         max-width: 210px
       @media  (max-width: 875px)
@@ -103,7 +104,7 @@
   a
     margin-top: 16px
     @media  (max-width: 875px)
-    margin-top: 0
+      margin-top: 0
   @media  (max-width: 875px)
     margin: 16px 20
 .vkLogoMobile
