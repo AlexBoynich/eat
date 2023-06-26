@@ -20,7 +20,7 @@
         <img src="/logoLeto.svg" alt="Логотип ТРК 'Лето'" class="logoLetoMobile"
         @click="replace('https://letotomsk.com/?ysclid=ljc8vmqu92306014314')"
         >
-        <img src="/vkLogoMobile.png" alt="Группа ВКонтакте" class="vkLogoMobile"
+        <img src="/vkLogoMobile.svg" alt="Группа ВКонтакте" class="vkLogoMobile"
         @click="replace('https://vk.com/festival_est')"
         >
       </footer>
@@ -121,7 +121,7 @@
     cursor: pointer
   @media  (max-width: 875px)
     display: flex
-    margin-top: 16px
+    margin-top: 8px
     width: 33px
     height: 33px
 

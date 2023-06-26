@@ -3,7 +3,7 @@
         <div class="vkBlock"
         @click="replace('https://vk.com/festival_est')"
         >
-            <img src="/vkLogo.png" alt="Группа ВКонтакте" class="vkLogo">
+            <img src="/vkLogo.svg" alt="Группа ВКонтакте" class="vkLogo">
         </div>
         <img src="/handWithBurger.png" alt="" class="handWithBurger">
         <img src="/handWithSusi.png" alt="" class="handWithSusi">
