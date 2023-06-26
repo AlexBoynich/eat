@@ -59,7 +59,7 @@
   display: none
   width: 125px
   height: 46px
-  &:hover
+    &:hover
     cursor: pointer
   @media  (max-width: 875px)
     display: block

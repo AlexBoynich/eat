@@ -79,7 +79,7 @@ export default {
             min-width: auto
     hr
         width: 100%
-        border: 1px solid #949494
+        border: 1px solid #FF7A00
         margin: 0 0 12px
         position: relative
     .participantBlock
@@ -144,8 +144,7 @@ export default {
         margin-bottom: 27px
         color: #D02D22
         min-width: 320px
-        .city
-            margin-right: 20px
+
         @media (max-width: 875px )
             flex-direction: column
             min-width: auto
