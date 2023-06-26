@@ -12,9 +12,15 @@
         </div>
         <div class="adress">
           <h4>Адрес:</h4>
-          <a>cекрет :)</a>
+          <a>ТРК “Лето”</a>
+          <img src="/logoLeto.svg" alt="Логотип ТРК 'Лето'" class="logoLeto"
+          @click="replace('https://letotomsk.com/?ysclid=ljc8vmqu92306014314')"
+          >
         </div>
-        <img src="/vkLogoMobile.png" alt="" class="vkLogoMobile"
+        <img src="/logoLeto.svg" alt="Логотип ТРК 'Лето'" class="logoLetoMobile"
+        @click="replace('https://letotomsk.com/?ysclid=ljc8vmqu92306014314')"
+        >
+        <img src="/vkLogoMobile.png" alt="Группа ВКонтакте" class="vkLogoMobile"
         @click="replace('https://vk.com/festival_est')"
         >
       </footer>
@@ -49,6 +55,24 @@
     max-width: 360px
 .footerColor
   background: #FFC500
+.logoLetoMobile
+  display: none
+  width: 125px
+  height: 46px
+  &:hover
+    cursor: pointer
+  @media  (max-width: 875px)
+    display: block
+    width: 54px
+    height: 20px
+    margin: 16px 16px 0 30%
+.logoLeto
+  width: 125px
+  height: 46px
+  &:hover
+    cursor: pointer
+  @media  (max-width: 875px)
+    display: none
 .footer
   display: flex
   flex-direction: row
@@ -87,6 +111,8 @@
   display: flex
   flex-direction: column
   margin: 20px
+  a
+    margin: 16px 0
   @media  (max-width: 875px)
     margin: 16px 20
 .vkLogoMobile
@@ -97,7 +123,6 @@
     display: flex
     width: 33px
     height: 33px
-    margin: 16px 0 16px 30%
 
 </style>
   
