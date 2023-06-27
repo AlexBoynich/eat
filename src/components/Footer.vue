@@ -89,13 +89,16 @@
       justify-content: space-between
     .footerTable
       width: 23%
-      margin: 30px
+      margin: 64px 120px 64px 72px
       min-width: 258px
       p
         font-size: 24px
       .number
         text-decoration: none
         color: #1C1C1A
+      .director
+        margin: 16px 0
+        line-height: 24px
       @media  (max-width: 875px)
         width: 128px
         min-width: 128px
