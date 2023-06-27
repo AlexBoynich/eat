@@ -102,7 +102,7 @@
       @media  (max-width: 875px)
         width: 128px
         min-width: 128px
-        margin: 20px 
+        margin: 16px 
         .post
           height: 44px
         .director
@@ -114,10 +114,12 @@
   display: flex
   flex-direction: column
   margin: 20px
+  h4
+    margin-bottom: 2px
   a
-    margin: 16px 0
+    margin: 0
   @media  (max-width: 875px)
-    margin: 16px 20
+    margin: 0 20px 16px
 .vkLogoMobile
   display: none
   &:hover
