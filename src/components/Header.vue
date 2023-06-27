@@ -28,7 +28,7 @@
     background: center / 86px 55px no-repeat url("/public/headerLogo.png")  #D9D9D9           
     .vkLogo
       width: 228px
-      height: 40px
+      height: 72px
       margin-right: 15px
       @media (max-width: 875px )
         width: 34px
