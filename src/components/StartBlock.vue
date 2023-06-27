@@ -22,7 +22,7 @@
                     <button class="becomings" href="https://docs.google.com/forms/d/e/1FAIpQLSdQUWmsh4_gJgj0jJ4geCYnfYNORGfKUjFjZs3vmkTKLyDM2A/viewform"
                     @click="replace('https://docs.google.com/forms/d/e/1FAIpQLSdQUWmsh4_gJgj0jJ4geCYnfYNORGfKUjFjZs3vmkTKLyDM2A/viewform')"><a>Стать участником</a></button>
                     <button class="conditions"
-                    @click="replace('https://drive.google.com/file/d/1IhhwiZJ9VrccXa0U53iYTkT64p99VEFg/view?usp=drive_link')"><a >Условия  <img src="/angle.png" alt="" class="angle"></a></button>
+                    @click="replace('https://drive.google.com/file/d/1oJABdUE9a7Ufz2gxyxhyhGrcWCGGOJ3F/view')"><a >Условия  <img src="/angle.png" alt="" class="angle"></a></button>
                 </div>
                 <div class="rightBlock">
                     <button class="becomings" href="https://docs.google.com/forms/d/e/1FAIpQLSeGtG3cA4Q2glTf1ZFQRUnPd1MW5hoap0MWibR0fERXzUc1qg/viewform"

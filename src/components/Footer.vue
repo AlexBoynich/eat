@@ -14,11 +14,11 @@
           <h4>Адрес:</h4>
           <a>ТРК “Лето”</a>
           <img src="/logoLeto.svg" alt="Логотип ТРК 'Лето'" class="logoLeto"
-          @click="replace('https://letotomsk.com/?ysclid=ljc8vmqu92306014314')"
+          @click="replace('https://letotomsk.com/')"
           >
         </div>
         <img src="/logoLeto.svg" alt="Логотип ТРК 'Лето'" class="logoLetoMobile"
-        @click="replace('https://letotomsk.com/?ysclid=ljc8vmqu92306014314')"
+        @click="replace('https://letotomsk.com/')"
         >
         <img src="/vkLogoMobile.svg" alt="Группа ВКонтакте" class="vkLogoMobile"
         @click="replace('https://vk.com/festival_est')"
