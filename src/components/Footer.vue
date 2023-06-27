@@ -113,11 +113,13 @@
 .adress
   display: flex
   flex-direction: column
-  margin: 20px
+  margin: 64px 633px 0 0
   h4
     margin-bottom: 2px
   a
-    margin: 0
+    margin: 16px 0
+    @media  (max-width: 875px)
+      margin: 0
   @media  (max-width: 875px)
     margin: 0 20px 16px
 .vkLogoMobile
