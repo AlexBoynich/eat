@@ -170,7 +170,7 @@ export default {
 
     .vkLogo
         width: 228px
-        height: 40px
+        height: 72px
 
     .handWithBurger
         width: 24%
