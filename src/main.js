@@ -9,6 +9,7 @@ Vue.config.productionTip = false
 
 Vue.use(VueYandexMetrika, {
   id: 93952563,
+  env: process.env.NODE_ENV,
   router: router,
 })
 
