@@ -84,6 +84,8 @@
     width: 60%
     max-width: 1920px
     justify-content: start
+    @media  (max-width: 1430px)
+      width: 80%
     @media  (max-width: 875px)
       width: 100%
       justify-content: space-between
@@ -99,6 +101,8 @@
       .director
         margin: 16px 0
         line-height: 24px
+      .post
+        max-width: 200px
       @media  (max-width: 875px)
         width: 128px
         min-width: 128px
