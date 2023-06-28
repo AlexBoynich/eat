@@ -2,16 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import vuetify from './plugins/vuetify'
-import VueYandexMetrika from 'vue-yandex-metrika' 
+import vuetify from './plugins/vuetify' 
 
 Vue.config.productionTip = false
 
-Vue.use(VueYandexMetrika, {
-  id: 93952563,
-  env: process.env.NODE_ENV,
-  router: router,
-})
 
 new Vue({
   router,
